@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "example-supportingfiles",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/fdiaz/Example-SupportingFiles.git",
+      "state" : {
+        "revision" : "8c4a8d2b79b9c8757ea7dee66c3d86c617e951e3",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 2
+}
