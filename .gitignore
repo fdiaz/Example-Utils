@@ -1,0 +1,18 @@
+# Xcode
+DerivedData/
+build/
+*.xcworkspace
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
+*.xcuserstate
+*.xccheckout
+*.moved-aside
+*.xcuserdatad/
+*.xcscmblueprint
+
+# Swift Package Manager
+.swiftpm/
+.build/
+.DS_Store
