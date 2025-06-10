@@ -2,11 +2,11 @@
 import PackageDescription
 
 let package = Package(
-    name: "UtilitiesToolkit",
+    name: "Utils",
     products: [
-        .library(name: "UtilitiesToolkit", targets: ["UtilitiesToolkit"]),
+        .library(name: "Utils", targets: ["Utils"]),
     ],
     targets: [
-        .target(name: "UtilitiesToolkit")
+        .target(name: "Utils")
     ]
 )
