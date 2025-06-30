@@ -1,8 +1,9 @@
 # Xcode
 DerivedData/
 build/
+*.pbxproj
 *.xcworkspace
-*.xcodeproj/*
+*.xcodeproj
 !*.xcodeproj/project.pbxproj
 !*.xcodeproj/xcshareddata/
 !*.xcworkspace/contents.xcworkspacedata
@@ -16,3 +17,5 @@ build/
 .swiftpm/
 .build/
 .DS_Store
+Derived/
+
