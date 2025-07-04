@@ -10,7 +10,7 @@ let project = Project(
             bundleId: "io.example.UtilsDemo",
             deploymentTargets: .macOS("15.0"),
             infoPlist: .default,
-            sources: ["Demo/**"],
+            sources: ["../Demo/**"],
             dependencies: [
                 .external(name: "Utils"),
                 .external(name: "SupportingFiles"),
