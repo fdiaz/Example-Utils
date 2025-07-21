@@ -10,8 +10,9 @@ let project = Project(
             bundleId: "io.example.Utils",
             deploymentTargets: .macOS("15.0"),
             infoPlist: .default,
-            sources: ["../Sources/Utils/**"],
-            dependencies: []
+            dependencies: [
+                .external(name: "Utils"),
+            ]
         ),
         .target(
             name: "UtilsDemo",
