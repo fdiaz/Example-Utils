@@ -4,6 +4,16 @@ let project = Project(
     name: "Utils-Tuist",
     targets: [
         .target(
+            name: "UtilsSDK",
+            destinations: .macOS,
+            product: .framework,
+            bundleId: "io.example.Utils",
+            deploymentTargets: .macOS("15.0"),
+            infoPlist: .default,
+            sources: ["../Sources/Utils/**"],
+            dependencies: []
+        ),
+        .target(
             name: "UtilsDemo",
             destinations: .macOS,
             product: .commandLineTool,
@@ -12,7 +22,6 @@ let project = Project(
             infoPlist: .default,
             sources: ["../Demo/**"],
             dependencies: [
-                .external(name: "Utils"),
                 .external(name: "SupportingFiles"),
             ]
         )
